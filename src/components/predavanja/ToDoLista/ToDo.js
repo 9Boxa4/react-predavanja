@@ -1,4 +1,4 @@
-import './App.css';
+
 import React, {useState,useEffect} from 'react';
 import NavBar from './components/NavBar';
 import ToDoLista from './components/ToDoLista';
@@ -7,7 +7,7 @@ import {TODOS_KEY} from './settings'
 
 
 
-function App() {
+function ToDo() {
 
   //VLASNIK STATE-A JE ONAJ KOJI TREBA DA MANIPULISE TIM STATE-OM
   const [todos,setTodos] = useState ([]);
@@ -57,4 +57,4 @@ function App() {
   );
 }
 
-export default App;
+export default ToDo;
