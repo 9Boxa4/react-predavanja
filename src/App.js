@@ -1,17 +1,35 @@
 import ToDo from "./components/predavanja/ToDoLista/ToDo";
 import Hooks from "./components/predavanja/Hooks/Hooks";
 import Form from "./components/predavanja/Forms/Form";
-
+import ReadingList from "./components/predavanja/ReadingList/ReadingList";
+import LifeCycle from "./components/predavanja/LifeCycle/LifeCycle";
+import UvodUReact from "./components/predavanja/UvodUReact/UvodUReact";
 function App() {
   return (
     <div>
-      <div> FORMS</div>
-      
+      <hr /><br />
+      <h1>UVOD U REACT</h1>
+      <UvodUReact/>
+      <br /><br />
+      <hr />
+      <h1> LIFE CYCLE</h1>
+      <LifeCycle/>
+      <br /><br />
+      <hr />
+      <h1> FORMS</h1>
       <Form />
-      <div> HOOKSa</div>
+      <br/>
+      <br/><hr />
+      <h1> HOOKS</h1>
       <Hooks />
-      <div>TODO</div>
+      <br /><br /><hr />
+      <h1> TODO</h1>
       <ToDo />
+      <br /><br /><hr />
+      <h1> READING LISTA</h1>
+      <ReadingList/>
+      <br /><br /><hr />
+      
     </div>
   );
 }
