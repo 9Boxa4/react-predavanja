@@ -31,4 +31,4 @@ class UvodUReact extends Component {
   }
 }
 
-export default UvodUReactaaaaaaa;
+export default UvodUReact;
