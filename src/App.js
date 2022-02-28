@@ -4,10 +4,15 @@ import Form from "./components/predavanja/Forms/Form";
 import ReadingList from "./components/predavanja/ReadingList/ReadingList";
 import LifeCycle from "./components/predavanja/LifeCycle/LifeCycle";
 import UvodUReact from "./components/predavanja/UvodUReact/UvodUReact";
+// import Vezbanje from "./components/predavanja/Vezbanje/Vezbanje";
+// import ReactRouterDomV5 from "./components/predavanja/react-router-dom-v5/ReactRouterDomV5";
+import ReactRouterDomV6 from "./components/predavanja/react-router-dom-v6/ReactRouterDomV6";
+
+
 function App() {
   return (
     <div>
-      <hr /><br />
+      {/* <hr /><br />
       <h1>UVOD U REACT</h1>
       <UvodUReact/>
       <br /><br />
@@ -25,10 +30,16 @@ function App() {
       <br /><br /><hr />
       <h1> TODO</h1>
       <ToDo />
-      <br /><br /><hr />
-      <h1> READING LISTA</h1>
+      <br /><br /><hr /> */}
+      {/* <h1> READING LISTA</h1>
       <ReadingList/>
-      <br /><br /><hr />
+      <br /><br /><hr /> */}
+      {/* <h1>React Router DOM v5</h1>
+      <ReactRouterDomV5/> */}
+      <h1>REACT ROUTER DOM V6</h1>
+      <ReactRouterDomV6/>
+      {/* <h1>Vezbanje</h1>
+      <Vezbanje/> */}
       
     </div>
   );
