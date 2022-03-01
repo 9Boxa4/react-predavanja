@@ -7,6 +7,7 @@ import UvodUReact from "./components/predavanja/UvodUReact/UvodUReact";
 // import Vezbanje from "./components/predavanja/Vezbanje/Vezbanje";
 // import ReactRouterDomV5 from "./components/predavanja/react-router-dom-v5/ReactRouterDomV5";
 import ReactRouterDomV6 from "./components/predavanja/react-router-dom-v6/ReactRouterDomV6";
+import MovieSearch from "./components/predavanja/movie-search/MovieSearch";
 
 
 function App() {
@@ -36,8 +37,10 @@ function App() {
       <br /><br /><hr /> */}
       {/* <h1>React Router DOM v5</h1>
       <ReactRouterDomV5/> */}
-      <h1>REACT ROUTER DOM V6</h1>
-      <ReactRouterDomV6/>
+      {/* <h1>REACT ROUTER DOM V6</h1>
+      <ReactRouterDomV6/> */}
+      <h1>Movie searches</h1>
+      <MovieSearch/>
       {/* <h1>Vezbanje</h1>
       <Vezbanje/> */}
       
